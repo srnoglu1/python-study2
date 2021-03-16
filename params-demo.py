@@ -12,9 +12,9 @@ print(result)
 
 #2)(?) Find out how many times each character is repeated in a string of information sent to it.
 
-def findthenumberofcharacters(string):
+def findTheNumberOfCharacters(string):
     return { letter: string.count(letter) for letter in string}
-result = findthenumberofcharacters("flutter")
+result = findTheNumberOfCharacters("flutter")
 print(result)
 
 
